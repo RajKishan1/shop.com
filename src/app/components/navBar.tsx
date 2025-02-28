@@ -12,7 +12,7 @@ const Lilita = Lilita_One({
 });
 const NavBar = () => {
   return (
-    <div className="h-[48px] w-[1240px] mx-[100px] mt-[62px] bg-red-700 flex items-center justify-between text-black">
+    <div className="h-[48px] w-[1240px] mx-[100px] mt-[62px] bg-red-100 flex items-center justify-between text-black">
       <h1 className={`${Lilita.className} text-4xl`}>Shop.com</h1>
       <span className="w-[321px] h-[22px] flex justify-between items-center">
         <p className="flex">
