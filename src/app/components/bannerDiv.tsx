@@ -29,7 +29,7 @@ const BannerDiv = () => {
           designed <br />
           to bring out your individuality and cater to your sense of style.
         </p>
-        <Btn text="Shop Now" />
+        <Btn text="Shop Now" Btnclass="btnblack"/>
 
         <div className="h-[74px] w-[596px] flex gap-[32px] justify-between">
           <Stats h1text="200+" smalltext="International Brands" />

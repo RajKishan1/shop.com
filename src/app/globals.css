@@ -31,3 +31,13 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+.btnblack {
+  background-color: black;
+  color: white;
+}
+.btnwhite{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}

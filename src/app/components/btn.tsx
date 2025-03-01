@@ -1,11 +1,14 @@
 import React from "react";
 interface prop {
   text: string;
+  Btnclass: string;
 }
-const Btn = ({ text }: prop) => {
+const Btn = ({ text, Btnclass }: prop) => {
   return (
-    <button className="h-[52px] w-[210px]  px-[54px] py-[16px] rounded-full bg-black ">
-      <p className=" text-white  "> {text}</p>
+    <button
+      className={`h-[52px] w-[210px]  px-[54px] py-[16px] rounded-full ${Btnclass} `}
+    >
+      <p className="font-semibold"> {text}</p>
     </button>
   );
 };
