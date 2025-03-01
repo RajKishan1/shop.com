@@ -5,7 +5,7 @@ import BrandBar from "./BrandBar";
 
 const LandingPage = () => {
   return (
-    <div className="h-screen w-full bg-[#FFFFFF] flex flex-col items-center">
+    <div className="h-screen w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
       <NavBar />
       <BannerDiv />
       <BrandBar />
