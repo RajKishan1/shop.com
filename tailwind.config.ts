@@ -12,7 +12,19 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        integral: ["integral", "sans-serif"],
+      },
     },
   },
   plugins: [],
 } satisfies Config;
+// module.exports = {
+//   theme: {
+//     extend: {
+//       fontFamily: {
+//         myfont: ["MyFont", "sans-serif"],
+//       },
+//     },
+//   },
+// };

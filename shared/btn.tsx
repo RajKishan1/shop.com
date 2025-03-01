@@ -4,8 +4,8 @@ interface prop {
 }
 const Btn = ({ text }: prop) => {
   return (
-    <button className="h-[52px] w-[210px] bg-neutral-950 rounded-full text-white">
-      {text}
+    <button className="h-[52px] w-[210px] ">
+      <p className="bg-black text-white rounded-full"> {text}</p>
     </button>
   );
 };
