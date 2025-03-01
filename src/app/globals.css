@@ -36,8 +36,8 @@ body {
   background-color: black;
   color: white;
 }
-.btnwhite{
+.btnwhite {
   background-color: transparent;
   color: black;
-  border: 1px solid black;
+  border: 1px solid #cbd5e1;
 }
