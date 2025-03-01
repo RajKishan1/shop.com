@@ -6,8 +6,8 @@ interface prop {
 
 const Stats = ({ h1text, smalltext }: prop) => {
   return (
-    <span className="flex flex-col items-center justify-around bg-red-400">
-      <h1 className="text-4xl text-black font-bold">{h1text}</h1>
+    <span className="flex flex-col items-center justify-around  font-satoshi">
+      <h1 className="text-[40px] text-black font-black">{h1text}</h1>
       <p className="text-black">{smalltext}</p>
     </span>
   );

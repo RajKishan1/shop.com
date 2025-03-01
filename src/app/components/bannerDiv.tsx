@@ -13,16 +13,16 @@ const BannerDiv = () => {
         <h1 className={`text-black text-[62px] font-integral leading-[64px]`}>
           FIND CLOTHES THAT MATCHES YOUR STYLE
         </h1>
-        <p className="text-[16px] text-neutral-800 ">
+        <p className="text-[16px] text-neutral-800 font-satoshi leading-[22px]">
           Browse through our diverse range of meticulously crafted garments,
           designed <br />
           to bring out your individuality and cater to your sense of style.
         </p>
         <Btn text="Shop Now" />
 
-        <div className="h-[74px] w-[596px] bg-red-100 flex gap-[64px] justify-between">
+        <div className="h-[74px] w-[596px] flex gap-[64px] justify-between">
           <Stats h1text="200+" smalltext="International Brands" />
-          <Stats h1text="2000+" smalltext="High-Quality Products" />
+          <Stats h1text="2,000+" smalltext="High-Quality Products" />
           <Stats h1text="30,000+" smalltext="Happy Customers" />
         </div>
       </div>

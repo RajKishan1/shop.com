@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         integral: ["integral", "sans-serif"],
+        satoshi: ["satoshi", "sans-serif"],
       },
     },
   },

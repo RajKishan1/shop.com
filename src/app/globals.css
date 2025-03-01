@@ -25,3 +25,9 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "satoshi"; /* Match the font name in Tailwind config */
+  src: url("/fonts/satoshi.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
