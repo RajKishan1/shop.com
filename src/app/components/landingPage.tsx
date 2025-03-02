@@ -6,6 +6,8 @@ import ProductCard from "./productCard";
 import Btn from "./btn";
 import Category from "./category";
 import Heading from "./heading";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import FeedbackBar from "./feedbackBar";
 // const [offer, setOffer] = useState();
 const LandingPage = () => {
   return (
@@ -24,7 +26,6 @@ const LandingPage = () => {
             oldPrice="2.50"
             discount="20"
           />
-
           <ProductCard
             src="/images/bluejeans.png"
             newPrice="12"
@@ -46,7 +47,7 @@ const LandingPage = () => {
         </div>
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
-
+      <hr className="w-[1240px] h-[1px] bg-slate-300 mt-[64px]" />
       <div className="w-[1440px] h-[700px] flex flex-col items-center justify-between">
         <Heading text="TOP SELLING" />
         <div className="flex items-center justify-around px-[80px] gap-[20px]">
@@ -58,7 +59,6 @@ const LandingPage = () => {
             oldPrice="2.50"
             discount="20"
           />
-
           <ProductCard
             src="/images/bluejeans.png"
             newPrice="12"
@@ -81,6 +81,14 @@ const LandingPage = () => {
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
       <Category />
+      <div className="w-[1440px] h-[140px] flex justify-between px-[100px]">
+        <Heading text="OUR HAPPY CUSTOMERS" />{" "}
+        <span className="flex mt-[85px] gap-4">
+          <ArrowLeft className="text-black" />
+          <ArrowRight className="text-black" />
+        </span>
+      </div>
+      <FeedbackBar />
     </div>
   );
 };

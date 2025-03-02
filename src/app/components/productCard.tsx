@@ -4,7 +4,7 @@ interface prop {
   src: string;
   productName: string;
   rating: string;
-  discount?: string;
+  // discount?: string;
   oldPrice?: string;
   newPrice: string;
 }
@@ -12,7 +12,7 @@ const ProductCard = ({
   src,
   productName,
   rating,
-  discount,
+  // discount,
   oldPrice,
   newPrice,
 }: prop) => {
