@@ -15,7 +15,7 @@ const LandingPage = () => {
       <NavBar />
       <BannerDiv />
       <BrandBar />
-      <div className="w-[1440px] h-[700px] flex flex-col items-center justify-between">
+      <div className="w-full flex flex-col items-center justify-between">
         <Heading text="NEW ARRIVALS" />
         <div className="flex items-center justify-around px-[80px] gap-[20px]">
           <ProductCard
@@ -24,7 +24,7 @@ const LandingPage = () => {
             rating="3.5"
             productName="T-shirt with Tape Details"
             oldPrice="2.50"
-            discount="20"
+            // discount="20"
           />
           <ProductCard
             src="/images/bluejeans.png"
@@ -57,7 +57,7 @@ const LandingPage = () => {
             rating="3.5"
             productName="T-shirt with Tape Details"
             oldPrice="2.50"
-            discount="20"
+            // discount="20"
           />
           <ProductCard
             src="/images/bluejeans.png"

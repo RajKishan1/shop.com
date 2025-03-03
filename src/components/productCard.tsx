@@ -17,7 +17,7 @@ const ProductCard = ({
   newPrice,
 }: prop) => {
   return (
-    <div className="h-[400px] w-[295px] flex flex-col  ">
+    <div className="h-[400px] w-[295px] flex flex-col  max-2xl:w-[275px]">
       <Image alt="" src={src} height={298} width={295} className=""></Image>
       <h3 className="font-satoshi text-[20px] font-bold text-black mt-[5px]">
         {productName}
