@@ -11,7 +11,7 @@ const Offer = () => {
         <span className="w-[25%] flex flex-col gap-2">
           <div className="bg-white h-11 rounded-full overflow-hidden flex items-center px-4">
             <Mail className="text-slate-500 mr-2 " height={16} />
-            <input type="text" placeholder="Enter your e-mail address here" className="w-full"/>
+            <input type="text" placeholder="Enter your e-mail address here" className="w-full outline-none text-black"/>
           </div>
           <div className="rounded-full h-11 bg-white flex items-center px-3">
             <button className="h-full w-full text-black font-semibold">

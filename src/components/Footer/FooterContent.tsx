@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const FooterContent = () => {
   return (
-    <div className="flex justify-between bg-red-60">
+    <div className="flex sm:flex-col lg:flex-row  justify-between bg-red-60">
       <div className="w-[33%]  flex flex-col justify-between">
         <h1 className="font-integral text-3xl">SHOP.COM</h1>
         <p className=" w-1/2">
