@@ -6,20 +6,7 @@ import Image from "next/image";
 const BannerDiv = () => {
   return (
     <div className="relative pl-[100px] w-full bg-[url('/bannerBG.svg')] bg-cover">
-      <Image
-        alt="star"
-        src="/star.svg"
-        className="absolute  left-[1255px] top-[82px]"
-        width={104}
-        height={104}
-      ></Image>
-      <Image
-        alt="star"
-        src="/star.svg"
-        className="absolute  left-[750px] top-[293px]"
-        width={56}
-        height={56}
-      ></Image>
+     
       <div className="w-1/2 h-full flex flex-col justify-evenly">
         <h1 className={`text-black mt-20 text-[66px] font-integral leading-[66px]`}>
           FIND CLOTHES THAT MATCHES YOUR STYLE
