@@ -9,6 +9,7 @@ import Heading from "./heading";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import FeedbackBar from "./feedbackBar";
 import Footer from "./Footer/Footer";
+import Offer from "./offer";
 // const [offer, setOffer] = useState();
 const LandingPage = () => {
   return (
@@ -90,6 +91,7 @@ const LandingPage = () => {
         </span>
       </div>
       <FeedbackBar />
+      <Offer />
       <Footer />
     </div>
   );

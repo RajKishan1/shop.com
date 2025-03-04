@@ -1,7 +1,6 @@
 import React from "react";
 import Btn from "./btn";
 import Stats from "./stats";
-import Image from "next/image";
 
 const BannerDiv = () => {
   return (
