@@ -5,14 +5,14 @@ import Link from "next/link";
 
 const FooterContent = () => {
   return (
-    <div className="flex sm:flex-col lg:flex-row  justify-between bg-red-60">
-      <div className="w-[33%]  flex flex-col justify-between">
+    <div className="flex flex-col lg:flex-row  justify-between items-center bg-red-60">
+      <div className="w-[90%] lg:w-[33%] flex flex-col justify-between items-start mb-4 ">
         <h1 className="font-integral text-3xl">SHOP.COM</h1>
-        <p className=" w-1/2">
-          We have clothes that suits your style and which you’re proud to wear.
+        <p className="w-full lg:w-1/2 my-3 text-neutral-600">
+          We have clothes that suits your style and which you're proud to wear.
           From women to men.
         </p>
-        <span className="flex justify-between w-[30%]">
+        <span className="flex justify-between w-1/2 lg:w-[30%] ">
           <Link href={"https://github.com"}>
             <Image alt="" src="/github.svg" height={35} width={35} />
           </Link>
@@ -27,7 +27,7 @@ const FooterContent = () => {
           </Link>
         </span>
       </div>
-      <span className="flex w-[33%] justify-around">
+      <div className="flex w-full lg:w-[33%] justify-around mb-5">
         <FooterList
           title="COMPANY"
           li1="About"
@@ -42,8 +42,8 @@ const FooterContent = () => {
           li3="Terms & Condition"
           li4="Privacy Policy"
         />
-      </span>
-      <span className="flex w-[33%]  justify-around">
+      </div>
+      <div className="flex flex-row w-full lg:w-[33%]  justify-around">
         <FooterList
           title="FAQ"
           li1="Account"
@@ -52,13 +52,13 @@ const FooterContent = () => {
           li4="Payment"
         />
         <FooterList
-          title="RESOURCES"
+          title="RESOURCE"
           li1="Free E-Book"
-          li2="Development Tutorial"
+          li2="Development "
           li3="How to Blog"
           li4="YouTube tutorial"
         />
-      </span>
+      </div>
     </div>
   );
 };

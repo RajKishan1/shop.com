@@ -9,9 +9,9 @@ interface prop {
 }
 const FooterList = ({ title, li1, li2, li3, li4 }: prop) => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-2 lg:gap-4 text-sm lg:text-lg text-neutral-600">
       <Link href={""}>
-        <h1 className="font-bold text-xl my-2 tracking-widest">{title}</h1>
+        <h1 className="font-bold text-lg lg:text-xl my-0 lg:my-2 tracking-widest">{title}</h1>
       </Link>
       <Link href={""}>
         <p>{li1}</p>
