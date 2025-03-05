@@ -13,16 +13,16 @@ const FooterContent = () => {
           From women to men.
         </p>
         <span className="flex justify-between w-[30%]">
-          <Link href={""}>
+          <Link href={"https://github.com"}>
             <Image alt="" src="/github.svg" height={35} width={35} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://instagram.com"}>
             <Image alt="" src="/insta.svg" height={35} width={35} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://x.com"}>
             <Image alt="" src="/twitter.svg" height={35} width={35} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://fb.com"}>
             <Image alt="" src="/fb.svg" height={35} width={35} />
           </Link>
         </span>

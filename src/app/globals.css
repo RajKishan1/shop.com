@@ -20,13 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 @font-face {
-  font-family: "integral"; /* Match the font name in Tailwind config */
+  font-family: "integral";
   src: url("/fonts/integral.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "satoshi"; /* Match the font name in Tailwind config */
+  font-family: "satoshi";
   src: url("/fonts/satoshi.otf") format("opentype");
   font-weight: normal;
   font-style: normal;

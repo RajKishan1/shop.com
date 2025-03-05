@@ -6,11 +6,11 @@ const BannerDiv = () => {
   return (
     <div className="relative pl-[100px] w-full bg-[url('/bannerBG.svg')] bg-cover">
      
-      <div className="w-1/2 h-full flex flex-col justify-evenly">
-        <h1 className={`text-black mt-20 text-[66px] font-integral leading-[66px]`}>
+      <div className="w-1/2 h-full flex flex-col justify-evenly bg-re-400">
+        <h1 className={`text-black mt-20 text-[66px] w-[70%] font-integral leading-[66px]`}>
           FIND CLOTHES THAT MATCHES YOUR STYLE
         </h1>
-        <p className="text-[16px] text-neutral-800  leading-[22px] my-5">
+        <p className="text-[16px] text-neutral-800  leading-[22px] my-6">
           Browse through our diverse range of meticulously crafted garments,
           designed <br />
           to bring out your individuality and cater to your sense of style.

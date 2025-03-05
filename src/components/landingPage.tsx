@@ -83,7 +83,7 @@ const LandingPage = () => {
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
       <Category />
-      <div className="w-[1440px] h-[140px] flex justify-between px-[100px]">
+      <div className="w-[1440px] h-[140px] flex justify-between px-[100px] my-20">
         <Heading text="OUR HAPPY CUSTOMERS" />{" "}
         <span className="flex mt-[85px] gap-4">
           <ArrowLeft className="text-black" />

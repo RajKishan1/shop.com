@@ -5,7 +5,7 @@ const Offer = () => {
   return (
     <div className="relative w-full h-64">
       <div className="absolute w-[80%]  top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%] h-40 bg-black rounded-2xl flex items-center justify-between px-20">
-        <h1 className="w-1/2 text-4xl font-integral text-white">
+        <h1 className="w-2/5 text-4xl font-integral text-white">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </h1>
         <span className="w-[25%] flex flex-col gap-2">
