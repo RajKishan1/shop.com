@@ -1,15 +1,15 @@
 import React from "react";
-import NavBar from "./navBar";
+import NavBar from "../navBar";
 import BannerDiv from "./bannerDiv";
 import BrandBar from "./BrandBar";
 import ProductCard from "./productCard";
-import Btn from "./btn";
+import Btn from "../btn";
 import Category from "./category";
-import Heading from "./heading";
+import Heading from "../heading";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import FeedbackBar from "./feedbackBar";
-import Footer from "./Footer/Footer";
-import Offer from "./offer";
+import FeedbackBar from "../feedbackBar";
+import Footer from "../Footer/Footer";
+import Offer from "../offer";
 // const [offer, setOffer] = useState();
 const LandingPage = () => {
   return (
@@ -49,7 +49,7 @@ const LandingPage = () => {
         </div>
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
-      <hr className="w-[1240px] h-[1px] bg-slate-300 mt-[64px]" />
+      <hr className="w-full h-[1px] bg-slate-300 mt-[64px]" />
       <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden">
         <Heading text="TOP SELLING" />
         <div className="flex items-center justify-around px-[80px] gap-[20px]">

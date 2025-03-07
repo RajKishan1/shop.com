@@ -6,7 +6,7 @@ interface prop {
 const Btn = ({ text, Btnclass }: prop) => {
   return (
     <button
-      className={`h-[52px] w-[210px]  px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
+      className={`h-[52px] w-[95%] md:w-[210px]  px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
     >
       <p className="font-semibold "> {text}</p>
     </button>

@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./heading";
+import Heading from "../heading";
 import CategoryCard from "./categoryCard";
 import Link from "next/link";
 

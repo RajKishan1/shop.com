@@ -1,6 +1,6 @@
 import React from "react";
-import Btn from "./btn";
-import Stats from "./stats";
+import Btn from "../btn";
+import Stats from "../stats";
 
 const BannerDiv = () => {
   return (
