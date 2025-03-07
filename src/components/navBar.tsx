@@ -20,7 +20,7 @@ const NavBar = () => {
         </span>
       </div>
       {/* // desktop navbar */}
-      <div className="hidden md:h-[48px] w-full px-24 mx-[100px] my-[24px] md:flex items-center justify-between text-black">
+      <div className="hidden md:h-[48px] w-[90%] px-24 my-[24px] md:flex items-center justify-between text-black">
         <h1 className={`font-integral text-4xl`}>Shop.com</h1>
         <span className="w-[321px] h-[22px] flex justify-between items-center">
           <span className="flex items-center">

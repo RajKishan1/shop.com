@@ -14,12 +14,12 @@ import Offer from "./offer";
 const LandingPage = () => {
   return (
     <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
-      <NavBar />
+      {/* <NavBar /> */}
       <BannerDiv />
       <BrandBar />
       <div className="w-full flex flex-col items-center justify-between">
         <Heading text="NEW ARRIVALS" />
-        <div className="flex items-center justify-around px-[80px] gap-[20px]">
+        <div className="w-full flex items-center justify-around px-[80px] gap-[20px] overflow-hidden">
           <ProductCard
             src="/images/blackTshirt.png"
             newPrice="120"
@@ -50,7 +50,7 @@ const LandingPage = () => {
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
       <hr className="w-[1240px] h-[1px] bg-slate-300 mt-[64px]" />
-      <div className="w-[1440px] h-[700px] flex flex-col items-center justify-between">
+      <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden">
         <Heading text="TOP SELLING" />
         <div className="flex items-center justify-around px-[80px] gap-[20px]">
           <ProductCard
@@ -59,7 +59,6 @@ const LandingPage = () => {
             rating="3.5"
             productName="T-shirt with Tape Details"
             oldPrice="2.50"
-            // discount="20"
           />
           <ProductCard
             src="/images/bluejeans.png"
@@ -83,7 +82,7 @@ const LandingPage = () => {
         <Btn text="View All" Btnclass="btnwhite" />
       </div>
       <Category />
-      <div className="w-[1440px] h-[140px] flex justify-between px-[100px] my-20">
+      <div className="w-full h-[140px] flex justify-between my-20">
         <Heading text="OUR HAPPY CUSTOMERS" />{" "}
         <span className="flex mt-[85px] gap-4">
           <ArrowLeft className="text-black" />
@@ -91,8 +90,8 @@ const LandingPage = () => {
         </span>
       </div>
       <FeedbackBar />
-      <Offer />
-      <Footer />
+      {/* <Offer />
+      <Footer /> */}
     </div>
   );
 };
