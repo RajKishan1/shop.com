@@ -19,7 +19,7 @@ const FilterComponent = () => {
       <hr className="bg-slate-600 w-full h-[1px]" />
       <DressStyle />
       <hr className="bg-slate-600 w-full h-[1px]" />
-      <Btn text="Apply Filters" Btnclass="btnwhite" />
+      <Btn text="Apply Filters" Btnclass="btnblack" />
     </div>
   );
 };
