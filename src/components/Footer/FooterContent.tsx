@@ -12,7 +12,7 @@ const FooterContent = () => {
           We have clothes that suits your style and which you are proud to wear.
           From women to men.
         </p>
-        <span className="flex justify-between w-1/2 lg:w-[30%] ">
+        <span className="flex justify-between w-1/2 lg:w-[30%] my-3">
           <Link href={"https://github.com"}>
             <Image alt="" src="/github.svg" height={35} width={35} />
           </Link>

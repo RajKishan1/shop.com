@@ -12,7 +12,7 @@ const CategoryCard = ({ category, src }: { category: string; src: string }) => {
         src={src}
         height={888}
         width={800}
-        className=" w-auto"
+        className=" w-auto object-cover"
       ></Image>
     </div>
   );

@@ -7,14 +7,15 @@ import Category from "./category";
 import Heading from "../heading";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import FeedbackBar from "../feedbackBar";
+import Link from "next/link";
 const LandingPage = () => {
   return (
     <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
       <BannerDiv />
       <BrandBar />
-      <div className="w-full flex flex-col items-center justify-between">
+      <div className="w-full flex flex-col items-center justify-between py-8">
         <Heading text="NEW ARRIVALS" />
-        <div className="w-full flex items-center justify-around px-[80px] gap-[20px] overflow-hidden">
+        <div className="w-full flex items-center justify-center px-[80px] gap-[20px] mt-16 overflow-hidden">
           <ProductCard
             src="/images/blackTshirt.png"
             newPrice="120"
@@ -42,10 +43,10 @@ const LandingPage = () => {
             productName="Sleeve Striped T-Shirt"
           />
         </div>
-        <Btn text="View All" Btnclass="btnwhite" />
+        <Btn text="View All" Btnclass="btnwhite my-6" />
       </div>
-      <hr className="w-full h-[1px] bg-slate-300 mt-[64px]" />
-      <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden">
+      <hr className="w-full h-[1px] bg-slate-300 px-24" />
+      <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden py-6">
         <Heading text="TOP SELLING" />
         <div className="flex items-center justify-around px-[80px] gap-[20px]">
           <ProductCard
@@ -74,14 +75,20 @@ const LandingPage = () => {
             productName="Sleeve Striped T-Shirt"
           />
         </div>
-        <Btn text="View All" Btnclass="btnwhite" />
+        <Link href={"/category"}>
+          <Btn text="View All" Btnclass="btnwhite" />
+        </Link>
       </div>
       <Category />
-      <div className="w-full h-[140px] flex justify-between my-20">
-        <Heading text="OUR HAPPY CUSTOMERS" />{" "}
-        <span className="flex mt-[85px] gap-4">
-          <ArrowLeft className="text-black" />
-          <ArrowRight className="text-black" />
+      <div className="w-full flex justify-between items-center px-4 md:px-24 my-8 ">
+        <Heading text="OUR HAPPY CUSTOMERS" />
+        <span className="flex gap-4">
+          <Link href={""}>
+            <ArrowLeft className="text-black" />
+          </Link>
+          <Link href={""}>
+            <ArrowRight className="text-black" />
+          </Link>
         </span>
       </div>
       <FeedbackBar />

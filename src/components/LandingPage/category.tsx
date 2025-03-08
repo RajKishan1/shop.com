@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Category = () => {
   return (
-    <div className="px-16 py-16 bg-[#f0f0f0] flex flex-col items-center mt-[72px] rounded-[40px]">
+    <div className="h-auto p-4 md:p-16 bg-[#f0f0f0] flex flex-col items-center gap-4 rounded-3xl">
       <Heading text="BROWSE BY DRESS STYLE" />
-      <div className="h-[289px] w-auto flex gap-[20px] mt-[64px]">
+      <div className=" md:h-auto w-auto flex flex-col justify-center md:flex-row gap-4 mt-6">
         <Link href={""}>
           <CategoryCard category="" src="/images/casual.png" />
         </Link>
@@ -15,7 +15,7 @@ const Category = () => {
           <CategoryCard category="" src="/images/formal.png" />
         </Link>
       </div>
-      <div className="h-[289px] w-auto flex gap-[20px] mt-[20px]">
+      <div className="h-auto w-auto flex flex-col md:flex-row gap-4 ">
         <Link href={""}>
           <CategoryCard category="" src="/images/party.png" />
         </Link>
