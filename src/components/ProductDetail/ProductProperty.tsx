@@ -48,7 +48,7 @@ const ProductProperty = () => {
         </span>
       </div>
       <div className="h-1/5 w-full flex gap-5">
-        <div className=" px-5 bg-neutral-300 rounded-3xl flex items-center gap-4">
+        <div className=" px-5 bg-neutral-300 rounded-full flex items-center gap-4">
           <button
             onClick={() => {
               setItemQuantity((e) => e - 1);

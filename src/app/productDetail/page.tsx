@@ -1,3 +1,4 @@
+import FeedbackComponent from "@/components/ProductDetail/FeedbackComponent";
 import MainComponent from "@/components/ProductDetail/MainComponent";
 import OptionsDiv from "@/components/ProductDetail/optionsDiv";
 import React from "react";
@@ -7,6 +8,7 @@ const Page = () => {
     <div className="w-full">
       <MainComponent />
       <OptionsDiv />
+      <FeedbackComponent />
     </div>
   );
 };
