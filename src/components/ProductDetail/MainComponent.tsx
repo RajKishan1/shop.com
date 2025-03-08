@@ -4,7 +4,7 @@ import ProductProperty from "./ProductProperty";
 
 const MainComponent = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row px-24 justify-around">
+    <div className="w-full flex flex-col md:flex-row px-2 lg:px-24 justify-around">
       <ImageSec />
       <ProductProperty />   
     </div>

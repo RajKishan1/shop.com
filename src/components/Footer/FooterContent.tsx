@@ -9,7 +9,7 @@ const FooterContent = () => {
       <div className="w-[90%] lg:w-[33%] flex flex-col justify-between items-start mb-4 ">
         <h1 className="font-integral text-3xl">SHOP.COM</h1>
         <p className="w-full lg:w-1/2 my-3 text-neutral-600">
-          We have clothes that suits your style and which you're proud to wear.
+          We have clothes that suits your style and which you are proud to wear.
           From women to men.
         </p>
         <span className="flex justify-between w-1/2 lg:w-[30%] ">

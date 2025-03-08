@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../navBar";
 import BannerDiv from "./bannerDiv";
 import BrandBar from "./BrandBar";
 import ProductCard from "./productCard";
@@ -8,13 +7,9 @@ import Category from "./category";
 import Heading from "../heading";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import FeedbackBar from "../feedbackBar";
-import Footer from "../Footer/Footer";
-import Offer from "../offer";
-// const [offer, setOffer] = useState();
 const LandingPage = () => {
   return (
     <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
-      {/* <NavBar /> */}
       <BannerDiv />
       <BrandBar />
       <div className="w-full flex flex-col items-center justify-between">

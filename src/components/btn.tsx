@@ -6,9 +6,9 @@ interface prop {
 const Btn = ({ text, Btnclass }: prop) => {
   return (
     <button
-      className={`h-[52px] w-[95%] md:w-auto  px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
+      className={`h-[52px] w-[95%] md:w-auto  px-1 lg:px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
     >
-      <p className="font-bold w-full text-black"> {text}</p>
+      <p className="font-light md:font-bold w-full "> {text}</p>
     </button>
   );
 };

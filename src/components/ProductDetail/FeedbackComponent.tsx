@@ -32,7 +32,7 @@ const FeedbackComponent = () => {
           feedback=""
           star="⭐⭐⭐⭐"
         />
-      </span>{" "}
+      </span>
       <span className="hidden lg:flex flex-col md:flex-row items-center justify-center gap-4">
         <DetailCard
           username="Rex T."

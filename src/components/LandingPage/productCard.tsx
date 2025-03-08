@@ -19,7 +19,7 @@ const ProductCard = ({
   return (
     <div className="h-[400px] w-[295px] flex flex-col  max-2xl:w-[275px]">
       <Image alt="" src={src} height={298} width={295} className=""></Image>
-      <h3 className="font-satoshi text-[20px] font-bold text-black mt-[5px]">
+      <h3 className="font-satoshiBold text-[20px] font-bold text-black mt-[5px]">
         {productName}
       </h3>
       <span className="h-[219px] flex mt-[5px]">
@@ -27,7 +27,7 @@ const ProductCard = ({
         <p className="ml-[8px] text-black">{rating}/5</p>
       </span>
       <div className="w-[170px] h-[30px]  flex justify-between">
-        <h6 className="text-[24px] text-black font-bold">${newPrice}</h6>
+        <h6 className="text-[24px] text-black font-satoshiBold">${newPrice}</h6>
         <h6 className="text-[24px] text-slate-600 font-bold">{oldPrice}</h6>
         {/* <span className="bg-red-200 h-[28px] w-[52px] rounded-full flex items-center justify-center">
           <p className="text-[12px]">{discount}</p>

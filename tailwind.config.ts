@@ -15,17 +15,9 @@ export default {
       fontFamily: {
         integral: ["integral", "sans-serif"],
         satoshi: ["satoshi", "sans-serif"],
+        satoshiBold: ["satoshiBold", "sans-serif"],
       },
     },
   },
   plugins: [],
 } satisfies Config;
-// module.exports = {
-//   theme: {
-//     extend: {
-//       fontFamily: {
-//         myfont: ["MyFont", "sans-serif"],
-//       },
-//     },
-//   },
-// };
