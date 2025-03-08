@@ -8,7 +8,7 @@ import Filters from "./Filters";
 
 const FilterComponent = () => {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-[30%] border-[1px] border-slate-400 rounded-xl p-4">
+    <div className="hidden md:flex flex-col gap-4 w-full max-w-[30%] border-[1px] border-slate-400 rounded-xl p-4">
       <Filters />
       <hr className="bg-slate-600 w-full h-[1px]" />
       <Price />
