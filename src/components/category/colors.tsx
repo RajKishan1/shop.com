@@ -4,7 +4,7 @@ import ColorDiv from "./colorDiv";
 
 const Colors = () => {
   return (
-    <div className="bg-red-200">
+    <div className="">
       <FilterTitle text="Colors" />
       <span className="flex flex-col items-center justify-center bg-red-300">
         <span className="h-auto w-full">

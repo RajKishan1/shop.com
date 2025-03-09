@@ -7,7 +7,7 @@ const Filters = () => {
     <div className="flex flex-col gap-3">
       <FilterTitle text="Filters" />
       <hr className="bg-slate-600 w-full h-[1px]" />
-      <span>
+      <span className="px-3 mt-4">
         <FilterTextItem text="T-Shirt" />
         <FilterTextItem text="Shirt" />
         <FilterTextItem text="Short" />

@@ -6,7 +6,7 @@ const DressStyle = () => {
   return (
     <div>
       <FilterTitle text="Dress Style" />
-      <span className="flex flex-col">
+      <span className="px-3 flex flex-col justify-center mt-4">
         <FilterTextItem text="Casual" />
         <FilterTextItem text="Formal" />
         <FilterTextItem text="Party" />
