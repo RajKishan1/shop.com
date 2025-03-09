@@ -8,7 +8,7 @@ const BannerDiv = () => {
     <div className="relative w-full px-3 lg:px-24 bg-[url('/bannerBG.svg')] bg-cover">
       <div className="w-full md:w-1/2 flex flex-col justify-evenly ">
         <h1
-          className={`text-black mt-8 lg:mt-20 text-4xl lg:text-[66px] w-[90%] lg:w-[87%] xl:w-[70%] font-integral leading-9 lg:leading-[66px]`}
+          className={`text-black mt-8 lg:mt-20 text-4xl lg:text-[66px] w-[90%] lg:w-[80%] font-integral leading-9 lg:leading-[66px]`}
         >
           FIND CLOTHES THAT MATCHES YOUR STYLE
         </h1>

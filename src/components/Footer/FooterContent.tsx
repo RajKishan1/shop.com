@@ -27,7 +27,7 @@ const FooterContent = () => {
           </Link>
         </span>
       </div>
-      <div className="flex w-full lg:w-[33%] justify-around mb-5">
+      <div className="flex w-full lg:w-[33%] justify-around mb-5 md:mb-0">
         <FooterList
           title="COMPANY"
           li1="About"

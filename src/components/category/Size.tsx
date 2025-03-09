@@ -6,7 +6,7 @@ const Size = () => {
   return (
     <div>
       <FilterTitle text="Size" />
-      <span className="mt-4 flex flex-wrap h-auto w-auto ">
+      <span className="mt-4 flex flex-wrap h-auto w-auto px-3">
         <SizeType text="XX-Small" />
         <SizeType text="X-Small" />
         <SizeType text="Small" />
