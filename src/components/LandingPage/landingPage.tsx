@@ -15,7 +15,7 @@ const LandingPage = () => {
       <BrandBar />
       <div className="w-full flex flex-col items-center justify-between py-8">
         <Heading text="NEW ARRIVALS" />
-        <div className="w-full flex items-center justify-center px-[80px] gap-[20px] mt-16 overflow-hidden">
+        <div className="w-full flex items-center justify-center px-24 gap-[20px] mt-16 overflow-x-auto overflow-y-hidden">
           <ProductCard
             src="/images/blackTshirt.png"
             newPrice="120"
@@ -43,12 +43,12 @@ const LandingPage = () => {
             productName="Sleeve Striped T-Shirt"
           />
         </div>
-        <Btn text="View All" Btnclass="btnwhite my-6" />
+        <Btn text="View All" Btnclass="btnwhite my-6" link="/category" />
       </div>
       <hr className="w-full h-[1px] bg-slate-300 px-24" />
-      <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden py-6">
+      <div className="w-full flex flex-col items-center justify-between py-8">
         <Heading text="TOP SELLING" />
-        <div className="flex items-center justify-around px-[80px] gap-[20px]">
+        <div className="w-full flex items-center justify-center px-24 gap-[20px] mt-16 overflow-x-auto overflow-y-hidden">
           <ProductCard
             src="/images/blackTshirt.png"
             newPrice="120"
@@ -75,9 +75,7 @@ const LandingPage = () => {
             productName="Sleeve Striped T-Shirt"
           />
         </div>
-        <Link href={"/category"}>
-          <Btn text="View All" Btnclass="btnwhite" />
-        </Link>
+        <Btn text="View All" Btnclass="btnwhite my-6" link="/category" />
       </div>
       <Category />
       <div className="w-full flex justify-between items-center px-4 md:px-24 my-8 ">

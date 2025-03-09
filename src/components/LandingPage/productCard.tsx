@@ -17,12 +17,12 @@ const ProductCard = ({
   newPrice,
 }: prop) => {
   return (
-    <div className="h-[400px] w-[295px] flex flex-col  max-2xl:w-[275px]">
+    <div className="h-auto w-[295px]  flex flex-col  max-2xl:w-[275px]">
       <Image alt="" src={src} height={298} width={295} className=""></Image>
       <h3 className="font-satoshiBold text-[20px] font-bold text-black mt-[5px]">
         {productName}
       </h3>
-      <span className="h-[219px] flex mt-[5px]">
+      <span className="my-1 flex mt-[5px]">
         ⭐⭐⭐⭐
         <p className="ml-[8px] text-black">{rating}/5</p>
       </span>

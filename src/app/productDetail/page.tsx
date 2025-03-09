@@ -12,9 +12,9 @@ const Page = () => {
       <MainComponent />
       <OptionsDiv />
       <FeedbackComponent />
-      <div className="w-full h-[700px] flex flex-col items-center justify-between overflow-hidden">
+      <div className="w-full flex flex-col items-center justify-between py-8">
         <Heading text="YOU MIGHT ALSO LIKE" />
-        <div className="flex items-center justify-around px-[80px] gap-[20px]">
+        <div className="w-full flex items-center justify-center px-24 gap-[20px] mt-16 overflow-x-auto overflow-y-hidden">
           <ProductCard
             src="/images/blackTshirt.png"
             newPrice="120"
@@ -41,7 +41,7 @@ const Page = () => {
             productName="Sleeve Striped T-Shirt"
           />
         </div>
-        <Btn text="View All" Btnclass="btnwhite" />
+        <Btn text="View All" Btnclass="btnwhite my-6" />
       </div>
     </div>
   );
