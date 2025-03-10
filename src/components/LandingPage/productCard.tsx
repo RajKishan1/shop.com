@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 interface prop {
   src: string;
@@ -17,7 +18,7 @@ const ProductCard = ({
   newPrice,
 }: prop) => {
   return (
-    <div className="h-auto w-[295px]  flex flex-col  max-2xl:w-[275px]">
+    <Link href={"/productDetail"} className="h-auto w-[295px]  flex flex-col  max-2xl:w-[275px]">
       <Image alt="" src={src} height={298} width={295} className=""></Image>
       <h3 className="font-satoshiBold text-[20px] font-bold text-black mt-[5px]">
         {productName}
@@ -33,7 +34,7 @@ const ProductCard = ({
           <p className="text-[12px]">{discount}</p>
         </span> */}
       </div>
-    </div>
+    </Link>
   );
 };
 

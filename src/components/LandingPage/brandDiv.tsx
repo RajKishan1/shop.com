@@ -3,7 +3,7 @@ import React from "react";
 
 const BrandDiv = ({ src }: { src: string }) => {
   return (
-    <span className="w-auto h-[35px] flex items-center justify-center">
+    <span className="w-[95px] md:w-auto h-[35px] flex items-center justify-center">
       <Image
         alt=""
         src={src}

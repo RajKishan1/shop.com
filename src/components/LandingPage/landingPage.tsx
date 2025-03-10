@@ -13,7 +13,7 @@ const LandingPage = () => {
     <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
       <BannerDiv />
       <BrandBar />
-      <div className="w-full flex flex-col items-center justify-between py-8">
+      <div id="newArrival" className="w-full flex flex-col items-center justify-between py-8">
         <Heading text="NEW ARRIVALS" />
         <div className="w-full flex items-center justify-center px-24 gap-[20px] mt-16 overflow-x-auto overflow-y-hidden">
           <ProductCard
