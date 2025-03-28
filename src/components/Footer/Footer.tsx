@@ -10,11 +10,11 @@ const Footer = () => {
       <span className=" w-full flex flex-col lg:flex-row justify-between items-center">
         <p>Shop.co © 2000-2023, All Rights Reserved</p>
         <span className="flex justify-between">
-          <Image alt="paymentIcon" src="/gpay.svg" width={80} height={60} />
-          <Image alt="paymentIcon" src="/ipay.svg" width={80} height={60} />
-          <Image alt="paymentIcon" src="/paypal.svg" width={80} height={30} />
-          <Image alt="paymentIcon" src="/visa.svg" width={80} height={30} />
-          <Image alt="paymentIcon" src="/master.svg" width={80} height={30} />
+          <Image alt="paymentIcon" src="/gpay.svg" width={50} height={60} />
+          <Image alt="paymentIcon" src="/ipay.svg" width={50} height={60} />
+          <Image alt="paymentIcon" src="/paypal.svg" width={50} height={30} />
+          <Image alt="paymentIcon" src="/visa.svg" width={50} height={30} />
+          <Image alt="paymentIcon" src="/master.svg" width={50} height={30} />
         </span>
       </span>
     </div>

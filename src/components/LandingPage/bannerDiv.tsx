@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const BannerDiv = () => {
   return (
-    <div className="relative w-full px-3 lg:px-24 bg-[url('/bannerBG.svg')] bg-cover">
+    <div className="relative w-full px-3 lg:px-24 bg-[url('/bannerBG.svg')] bg-cover overflow-hidden">
       <div className="w-full md:w-1/2 flex flex-col justify-evenly ">
         <h1
           className={`text-black mt-8 lg:mt-20 max-md:text-4xl text-[66px] max-2xl:text-[50px]  w-[90%] lg:w-[80%] font-integral max-md:leading-9 leading-[66px] max-2xl:leading-[58px]`}
@@ -18,7 +18,7 @@ const BannerDiv = () => {
           designed to bring out your individuality and cater to your sense of
           style.
         </p>
-        <Btn text="Shop Now" Btnclass="btnblack w-[300px] md:w-[240px]" link="category"/>
+        <Btn text="Shop Now" Btnclass="btnblack w-[240px]" link="category"/>
 
         <div className="flex gap-4 lg:gap-1 flex-wrap mt-1 lg:mt-16 mb-2 lg:mb-20 justify-between items-center text-center ">
           <Stats h1text="200+" smalltext="International Brands" />
