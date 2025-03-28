@@ -10,7 +10,7 @@ import FeedbackBar from "../feedbackBar";
 import Link from "next/link";
 const LandingPage = () => {
   return (
-    <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi">
+    <div className="h-auto w-full bg-[#FFFFFF] flex flex-col items-center font-satoshi overflow-hidden">
       <BannerDiv />
       <BrandBar />
       <div id="newArrival" className="w-full flex flex-col items-center justify-between py-8">

@@ -13,9 +13,9 @@ const NavBar = () => {
   return (
     <>
       {/* // mobile navbar */}
-      <div className="md:hidden h-[64px] w-[390px] bg-slate-00 text-black flex items-center justify-between px-[16px]">
+      <div className="md:hidden h-[64px] w-full bg-slate-00 text-black flex items-center justify-between px-[16px]">
         <LucideMenu />
-        <h1 className="text-[25.2px] font-integral -ml-[55px] max-2xl:-ml-[45px]">SHOP.CO</h1>
+        <h1 className="text-[25.2px] font-integral  max-2xl:-ml-[45px]">SHOP.CO</h1>
         <span className="w-[96px] flex justify-between">
           <Search />
           <ShoppingCart />

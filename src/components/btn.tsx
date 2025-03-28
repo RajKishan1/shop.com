@@ -9,7 +9,7 @@ const Btn = ({ text, Btnclass, link }: prop) => {
   return (
     <Link href={`${link}`}>
       <button
-        className={`h-[52px] w-[240px]  px-1 lg:px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
+        className={`h-[52px] w-[180px] md:w-[240px]  px-0 lg:px-[54px] py-[16px] rounded-full ${Btnclass} flex items-center justify-center `}
       >
         <p className="font-light md:font-bold w-full "> {text}</p>
       </button>
