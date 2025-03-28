@@ -40,7 +40,7 @@ const LandingPage = () => {
             src="/images/orangetshirt.png"
             newPrice="6"
             rating="2.3"
-            productName="Sleeve Striped T-Shirt"
+            productName="Striped T-Shirt"
           />
         </div>
         <Btn text="View All" Btnclass="btnwhite my-6" link="/category" />
@@ -72,7 +72,7 @@ const LandingPage = () => {
             src="/images/orangetshirt.png"
             newPrice="6"
             rating="2.3"
-            productName="Sleeve Striped T-Shirt"
+            productName="Striped T-Shirt"
           />
         </div>
         <Btn text="View All" Btnclass="btnwhite my-6" link="/category" />
